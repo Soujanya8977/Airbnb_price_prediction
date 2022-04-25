@@ -1,0 +1,1 @@
+This application showcases the prediction of prices for Airbnb data
