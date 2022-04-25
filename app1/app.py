@@ -73,7 +73,7 @@ else:
     df['target'] = tpot_data['target']
 #st.write(df)
 #pandas profling-report
-st.subheader('Profiling Report of your dataset')
-pr = df.head(100).profile_report()
+# st.subheader('Profiling Report of your dataset')
+# pr = df.head(100).profile_report()
 st_profile_report(pr)
     
