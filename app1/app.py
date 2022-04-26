@@ -66,7 +66,7 @@ if 'float' in str(type(prediction[0])):
 else:
     st.write(prediction[0])
 # Dataset
-st.subheader('Data Set')
+st.subheader('Data Set1')
 if len(target_encoder_location) > 5:
     df['target'] = target_encoder.inverse_transform(tpot_data['target'])
 else:
@@ -74,7 +74,7 @@ else:
 st.write(df)
 #pandas profling-report
 ### To-Do: Uncomment the below three lines of code if you want to see profiling report in your web app.
-st.subheader('Profiling Report of your dataset')
-pr = df.profile_report()
-st_profile_report(pr)
+# st.subheader('Profiling Report of your dataset')
+# pr = df.profile_report()
+# st_profile_report(pr)
     
